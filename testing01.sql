@@ -9,6 +9,8 @@ BEGIN
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
+	-- se agregan cambios para una tercer prueba
+
 	-- CAmbios realizados 
 	declare @Param1 varchar(2) = 'ae'
 
@@ -18,4 +20,6 @@ BEGIN
 	-- Se agregan estos cambios
 	-- para probar si funciona el control de cambios
 	-- en GIT
+
+	-- Se agregan cambios para una segunda prueba
 END
